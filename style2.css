@@ -112,7 +112,7 @@ body {
     } 
   }                                 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 651px) {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
         grid-template-rows: minmax(17%, auto);
