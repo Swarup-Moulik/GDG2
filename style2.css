@@ -98,7 +98,7 @@ body {
 }
 .typewriter{
     display: flex;
-    align-self: center;
+    align-items: center;
 }
 .typewriter::after{
     content: '';
