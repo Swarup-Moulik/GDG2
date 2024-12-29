@@ -79,7 +79,7 @@ body {
 .container .box:nth-child(5){
     grid-row: span 1;
     grid-column: span 3;
-
+}
 .heart {
     color: rgb(228, 66, 98);
     font-size: 2rem;
