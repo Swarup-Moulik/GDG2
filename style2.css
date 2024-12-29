@@ -19,6 +19,7 @@ body {
 
 .title{
     display: flex;
+    align-items: center;
     gap: 2vh;
 }
 
@@ -95,12 +96,18 @@ body {
         scale: 1;
     }
 }
-.custom-cursor {
-    position: relative;
-    width: 0.2vw;
-    height: 4vh;
+.typewriter{
+    display: flex;
+    align-self: center;
+}
+.typewriter::after{
+    content: '';
+    display: inline-block;
+    width: 0.1em;
+    height: 1.1em;
     background-color: rgb(219, 219, 236);
     animation: cursorAnimation 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate;
+    align-items: center;
   }
    
 @keyframes cursorAnimation {
